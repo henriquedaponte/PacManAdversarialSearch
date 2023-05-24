@@ -44,9 +44,13 @@ class MinimaxAgent(MultiAgentSearchAgent):
     - Calculate action expected from ghost that will minimize value to pacman
     
  class ExpectimaxAgent(MultiAgentSearchAgent):
+ 
     def getAction(self, gameState):
+    
     def expectimax(self, gameState, agentIndex, depth):
+    
     def maxValue(self, gameState, agentIndex, depth):
+    
     def expValue(self, gameState, agentIndex, depth):
     
 def betterEvaluationFunction(currentGameState):
